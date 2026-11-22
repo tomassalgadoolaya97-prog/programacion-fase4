@@ -1,0 +1,20 @@
+2026-11-21 22:38:32 | INICIO | Iniciando simulación de 12 operaciones para Software FJ.
+2026-11-21 22:38:32 | INFO | Cliente registrado: Cliente[C01] Narlis Orozco | Doc: 1082999111 | Correo: narlis@ejemplo.com
+2026-11-21 22:38:32 | EXITO | Op 1 - Cliente válido completada correctamente.
+2026-11-21 22:38:32 | ERROR | Op 2 - Cliente correo inválido -> [ERR_DATO_INVALIDO] Correo electrónico inválido: 'correo-no-valido'.
+2026-11-21 22:38:32 | INFO | Servicio registrado: Servicio[S01] Sala Conferencias A | Tarifa: $80,000.00 | Disponible
+2026-11-21 22:38:32 | EXITO | Op 3 - Servicio Sala válido completada correctamente.
+2026-11-21 22:38:32 | INFO | Servicio registrado: Servicio[S02] Laptop Dev i7 | Tarifa: $45,000.00 | Disponible
+2026-11-21 22:38:32 | EXITO | Op 4 - Servicio Equipo válido completada correctamente.
+2026-11-21 22:38:32 | INFO | Servicio registrado: Servicio[S03] Arquitectura Cloud | Tarifa: $150,000.00 | No disponible
+2026-11-21 22:38:32 | EXITO | Op 5 - Servicio Asesoría no disp. completada correctamente.
+2026-11-21 22:38:32 | ERROR | Op 6 - Servicio tarifa inválida -> [ERR_DATO_INVALIDO] La tarifa base debe ser un número mayor que cero.
+2026-11-21 22:38:32 | INFO | Reserva creada: Reserva[R01] Estado: PENDIENTE | Cliente: Narlis Orozco | Servicio: Sala Conferencias A | Total: $216,410.40
+2026-11-21 22:38:32 | EXITO | Op 7 - Reserva exitosa sala completada correctamente.
+2026-11-21 22:38:32 | EXITO | Op 8 - Confirmar y procesar R01 completada correctamente.
+2026-11-21 22:38:32 | ERROR | Op 9 - Reserva servicio no disp. -> [ERR_SERVICIO_NO_DISPONIBLE] El servicio 'Arquitectura Cloud' (S03) no está disponible.
+2026-11-21 22:38:32 | ERROR | Op 10 - Reserva duración inválida -> [ERR_DATO_INVALIDO] Para alquiler de equipo, los días deben ser un entero entre 1 y 30.
+2026-11-21 22:38:32 | ERROR | Op 11 - Reconfirmar R01 inválida -> [ERR_OPERACION_RESERVA] La reserva R01 ya se encuentra confirmada.
+2026-11-21 22:38:32 | INFO | Reserva creada: Reserva[R04] Estado: PENDIENTE | Cliente: Narlis Orozco | Servicio: Arquitectura Cloud | Total: $300,570.00
+2026-11-21 22:38:32 | EXITO | Op 12 - Activar S03 y reservar completada correctamente.
+2026-11-21 22:38:32 | FIN | Simulación finalizada. Sistema estable y operativo.
